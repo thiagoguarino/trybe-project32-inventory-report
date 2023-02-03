@@ -1,11 +1,11 @@
-import abc
+from abc import ABC, ABCMeta, abstractmethod
 
 
-class Importer(abc.ABC):
-    __metaclass__ = abc.ABCMeta
+class Importer(ABC):
+    __metaclass__ = ABCMeta
 
-    @abc.abstractclassmethod
-    def import_data(self, file):
+    @abstractmethod
+    def import_data(file):
         '''interface method to import data
         from different file type'''
         return
