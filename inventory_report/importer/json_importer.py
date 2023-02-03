@@ -8,6 +8,6 @@ class JsonImporter(Importer):
     def import_data(file_path):
         if (file_path.endswith('.json')):
             with open(file_path, encoding="utf-8") as file:
-                return json.load(file)
+                return list(json.load(file))
 
         raise ValueError("Arquivo inválido")
