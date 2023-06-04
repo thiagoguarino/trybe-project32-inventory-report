@@ -5,9 +5,7 @@
 
   This is project #2 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/).
 
-  This project genereates reports data from command line. It handles XML, JSON and CSV files as data inputs. The outputs can be divided in two options. Simple Report and Complete Report. This project also has Unit Tests and Bonus Tasks.
-
-  Stack: Python3, Pytest.
+  This project generates reports data from command line. It handles XML, JSON and CSV files as data inputs. The outputs can be split in two options. Simple Report and Complete Report. This project also has Unit Tests and Bonus Tasks. Stack: Python3, Pytest.
 
   <strong>FYI: every file that does not have a code authorship comment, was originally made by Trybe Bootcamp.</strong>
 
@@ -108,9 +106,9 @@
   <details>
   <summary><strong>How To Execute the App</strong></summary>
 
-  After implementing the bonus task, the app must be executable from command line.
+  After implementing the bonus task, the app must be executable from command line. The command to be executed is `inventory_report`.
 
-  The command to be executed is inventory_report. To work correctly you must install the module on your own environment as a pip package: `pip install`
+  To work correctly you must install the module on your own environment as a pip package: `pip install inventory_report`
 
   Now you can call the command inventory_report passing the arguments: `inventory_report argument1 argument2`
 
@@ -118,5 +116,5 @@
 
   argument2 can receive two strings: simple or complete, each one generating their own report.
 
-  another option is to use the command: `python3 -m inventory_report.main argumento1 argumento2`
+  another option is to use the command: `python3 -m inventory_report.main argument1 argument2`
   </details>
