@@ -4,6 +4,7 @@ from inventory_report.reports.simple_report import SimpleReport
 from inventory_report.reports.complete_report import CompleteReport
 
 
+# file authorship: thiago guarino
 class InventoryRefactor(Iterable):
     def __init__(self, importer_class):
         self.importer = importer_class

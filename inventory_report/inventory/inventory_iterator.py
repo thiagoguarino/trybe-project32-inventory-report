@@ -1,6 +1,7 @@
 from collections.abc import Iterator
 
 
+# file authorship: thiago guarino
 class InventoryIterator(Iterator):
     def __init__(self, iterable_object):
         self.iterable_object = iterable_object

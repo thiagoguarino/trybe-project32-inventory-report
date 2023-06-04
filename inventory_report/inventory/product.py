@@ -1,3 +1,4 @@
+# file authorship: thiago guarino
 class Product:
     def __init__(
         self,

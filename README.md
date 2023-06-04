@@ -5,8 +5,7 @@
 
   This is project #2 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/).
 
-  This project genereates reports data from command line. It handles XML, JSON and CSV files as data inputs.
-  The outputs can be divided in two options. Simple Report and Complete Report. This project also has unit tests.
+  This project genereates reports data from command line. It handles XML, JSON and CSV files as data inputs. The outputs can be divided in two options. Simple Report and Complete Report. This project also has Unit Tests and Bonus Tasks.
 
   Stack: Python3, Pytest.
 
@@ -18,6 +17,8 @@
   <summary>
     <b>Tasks and Status</b>
   </summary>
+
+* tasks 10 and 11 are bonus tasks
 
 *Description* | *Status*
 --- | :---:
@@ -105,7 +106,7 @@
   - `python3 -m pip install -r dev-requirements.txt`
 
   <details>
-  <summary><strong>How To execute the app</strong></summary>
+  <summary><strong>How To Execute the App</strong></summary>
 
   After implementing the bonus task, the app must be executable from command line.
 

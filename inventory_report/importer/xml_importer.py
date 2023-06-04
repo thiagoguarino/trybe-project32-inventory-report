@@ -2,6 +2,7 @@ from inventory_report.importer.importer import Importer
 import xmltodict
 
 
+# file authorship: thiago guarino
 class XmlImporter(Importer):
 
     @staticmethod

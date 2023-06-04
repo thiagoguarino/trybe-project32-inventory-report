@@ -1,6 +1,7 @@
 from .simple_report import SimpleReport
 
 
+# file authorship: thiago guarino
 class CompleteReport(SimpleReport):
 
     def __product_count_by_company(products_list):

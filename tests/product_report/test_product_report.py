@@ -2,6 +2,7 @@ from inventory_report.inventory.product import Product
 import pytest
 
 
+# file authorship: thiago guarino
 @pytest.fixture
 def product_fixture():
     return {

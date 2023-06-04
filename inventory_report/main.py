@@ -5,6 +5,7 @@ from inventory_report.importer.xml_importer import XmlImporter
 from inventory_report.importer.json_importer import JsonImporter
 
 
+# file authorship: thiago guarino
 def print_report(importer_class, file_path, report_type):
     report = InventoryRefactor(importer_class).import_data(
         file_path, report_type)

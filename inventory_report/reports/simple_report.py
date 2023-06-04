@@ -2,6 +2,7 @@ from collections import Counter
 from datetime import date
 
 
+# file authorship: thiago guarino
 class SimpleReport:
 
     def __products_data_lists(products_list):

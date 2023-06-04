@@ -2,6 +2,7 @@ from inventory_report.importer.importer import Importer
 import json
 
 
+# file authorship: thiago guarino
 class JsonImporter(Importer):
 
     @staticmethod

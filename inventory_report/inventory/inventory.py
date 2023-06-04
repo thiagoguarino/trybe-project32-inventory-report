@@ -5,6 +5,7 @@ import json
 import xmltodict
 
 
+# file authorship: thiago guarino
 class Inventory:
 
     def __file_checker(file_path):

@@ -2,6 +2,7 @@ from inventory_report.importer.importer import Importer
 import csv
 
 
+# file authorship: thiago guarino
 class CsvImporter(Importer):
 
     @staticmethod

@@ -1,6 +1,7 @@
 import re
 
 
+# file authorship: thiago guarino
 class ColoredReport:
     def __init__(self, report_type):
         self.report_type = report_type
