@@ -108,13 +108,16 @@
 
   After implementing the bonus task, the app must be executable from command line. 
   
-  Install the 'inventory_report' module on your own environment as a pip package: `pip install inventory_report`
+  Install the 'inventory_report' module on your own environment as a pip package: `pip install .`
 
-  Now you call the command `inventory_report` passing the arguments: `inventory_report argument1 argument2`
+  Now you call the command `inventory_report` passing the arguments: `inventory_report.main argument1 argument2`
 
   argument1 should receive the file path of the file to be imported. the file can be a csv, json or xml.
 
   argument2 can receive two strings: simple or complete, each one generating their own report.
 
-  another option is to use the command: `python3 -m inventory_report.main argument1 argument2`
+  use the command: `python3 -m inventory_report.main argument1 argument2`
+
+  ex: `python3 -m inventory_report.main inventory_report/data/inventory.csv simples`
+
   </details>
