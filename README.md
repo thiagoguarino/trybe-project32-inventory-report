@@ -62,25 +62,25 @@
   In case you need to execute just one test file, use the command:
 
   ```bash
-  python3 -m pytest tests/nomedoarquivo.py
+  python3 -m pytest tests/filename.py
   ```
 
   In case you need to execute just one test function, use the command:
 
   ```bash
-  python3 -m pytest -k nome_da_func_de_tests
+  python3 -m pytest -k test_function_name
   ```
 
   If you wish that the tests stop from being executed when the first error happens, use the param `-x`
 
   ```bash
-  python3 -m pytest -x tests/test_jobs.py
+  python3 -m pytest -x tests/filename.py
   ```
 
   To execute a specific test of a file, type the command:
 
   ```bash
-  python3 -m pytest tests/nomedoarquivo.py::test_nome_do_teste
+  python3 -m pytest tests/filename.py::test_function_name
   ```
 </details>
 
@@ -106,11 +106,9 @@
   <details>
   <summary><strong>How To Execute the App</strong></summary>
 
-  After implementing the bonus task, the app must be executable from command line. The command to be executed is `inventory_report`.
+  After implementing the bonus task, the app must be executable from command line. The command to be executed is `inventory_report`. To work correctly you must install the module on your own environment as a pip package: `pip install inventory_report`
 
-  To work correctly you must install the module on your own environment as a pip package: `pip install inventory_report`
-
-  Now you can call the command inventory_report passing the arguments: `inventory_report argument1 argument2`
+  Now you can call the command `inventory_report` passing the arguments: `inventory_report argument1 argument2`
 
   argument1 should receive the file path of the file to be imported. the file can be a csv, json or xml.
 
