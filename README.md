@@ -108,7 +108,7 @@
 
   After implementing the bonus task, the app must be executable from command line. 
   
-  You must install the 'inventory_report' module on your own environment as a pip package: `pip install inventory_report`
+  Install the 'inventory_report' module on your own environment as a pip package: `pip install inventory_report`
 
   Now you call the command `inventory_report` passing the arguments: `inventory_report argument1 argument2`
 
