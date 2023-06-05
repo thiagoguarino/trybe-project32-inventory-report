@@ -114,7 +114,7 @@
 
   argument1 should receive the file path of the file to be imported. the file can be a csv, json or xml.
 
-  argument2 can receive two strings: simple or complete, each one generating their own report.
+  argument2 can receive two strings: 'simples' or 'completo', each one generating their own report.
 
   use the command: `python3 -m inventory_report.main argument1 argument2`
 
