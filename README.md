@@ -32,8 +32,8 @@
 9 - the report should be styled with colors | :heavy_check_mark:
 10.1 - checks if instance of InventoryRefactor is Iterable | :heavy_check_mark:
 10.2 - checks if it is possible to iterate the first item in the list using csv | :heavy_check_mark:
-10.3 - checks if it is possible to iterate o primeiro item da lista usando json | :heavy_check_mark:
-10.4 - checks if it is possible to iterate o primeiro item da lista usando xml | :heavy_check_mark:
+10.3 - checks if it is possible to iterate first item on the List using json | :heavy_check_mark:
+10.4 - checks if it is possible to iterate first item on the List using xml | :heavy_check_mark:
 10.5 - checks if it is possible to receive two data sources without overwritting | :heavy_check_mark:
 10.6 - checks if is not possible to send an invalid file | :heavy_check_mark:
 11.1 - checks if the menu imports a csv file and generates a Simple Report | :heavy_check_mark:
@@ -118,6 +118,6 @@
 
   use the command: `python3 -m inventory_report.main argument1 argument2`
 
-  ex: `python3 -m inventory_report.main inventory_report/data/inventory.csv simples`
+  ex: `python3 -m inventory_report.main data/inventory.csv simples`
 
   </details>
