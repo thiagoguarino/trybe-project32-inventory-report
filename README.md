@@ -5,7 +5,18 @@
 
   This is project #2 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/).
 
-  This project generates reports data from command line. It handles XML, JSON and CSV files as data inputs. The outputs can be split in two options. Simple Report and Complete Report. This project has Unit Tests and Bonus Tasks. Stack: Python3, Pytest.
+  This project generates Inventory Reports from command line. It handles XML, JSON and CSV files as data inputs. The outputs can be split in two options. Simple Report and Complete Report. This project has Unit Tests and Bonus Tasks. Stack: Python3, Pytest.
+
+  <details>
+  <summary>
+    <b>skills developed building the product</b>
+  </summary>
+  <ul>
+    <li>Apply concepts of Object-Oriented Programming</li>
+    <li>Apply Design Patterns</li>
+    <li>File Handling</li>
+  </ul>
+</details>
 
   <strong>FYI: every file that does not have a code authorship comment, was originally made by Trybe Bootcamp.</strong>
 
