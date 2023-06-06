@@ -110,7 +110,7 @@
   
   Install the 'inventory_report' module on your own environment as a pip package: `pip install .`
 
-  Now you call the command `inventory_report` passing the arguments: `inventory_report.main argument1 argument2`
+  Now call the command `inventory_report` passing the arguments: `inventory_report.main argument1 argument2`
 
   argument1 should receive the file path of the file to be imported. the file can be a csv, json or xml.
 
