@@ -9,7 +9,7 @@
 
   <details>
   <summary>
-    <b>skills developed coding the </b>
+    <b>skills developed coding the project</b>
   </summary>
   <ul>
     <li>Apply concepts of Object-Oriented Programming</li>
