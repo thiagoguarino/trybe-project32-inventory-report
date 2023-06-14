@@ -1,5 +1,6 @@
 ## Trybe Project 32 - Inventory Report
 
+- MADE BY [Thiago Guarino](https://www.linkedin.com/in/thiago-guarino/)
 
 ## PROJECT OVERVIEW
 
